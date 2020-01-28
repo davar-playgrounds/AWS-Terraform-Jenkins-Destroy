@@ -12,6 +12,7 @@
       terraform:
         project_path: "./"
         state: "{{state}}"
+        force: yes
         backend_config:
           s3_bucket: "{{s3_bucket}}"
           key: "{{key}}"
