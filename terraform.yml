@@ -2,7 +2,7 @@
 - hosts: localhost
   become: True
   vars:
-    state: present
+    state: absent
     s3_bucket: devopsterra
     key: terraform.tfstate
     region: us-west-2
